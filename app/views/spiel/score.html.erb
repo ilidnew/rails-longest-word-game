@@ -1,0 +1,10 @@
+<h2>********** Now your result **********</h2>
+
+<h2>Your word: <%= @attempt %></h2>
+<h2>Time Taken to answer: <%= @result[:time] %></h2>
+<h2>Your score: <%= @result[:score] %></h2>
+<h2>Message: <%= @result[:message] %></h2>
+
+<h2>*****************************************************</h2>
+
+<%= link_to "Try again", game_path %>
